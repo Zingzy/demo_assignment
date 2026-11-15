@@ -1,0 +1,68 @@
+Git commands used
+=================
+
+1. git init -b main
+   Initializes a new local Git repository and names its first branch main.
+
+2. git add index.html about.html
+   Stages the initial HTML files for the first commit.
+
+3. git commit -m "Create initial HTML project"
+   Records the initial project state in the repository history.
+
+4. git add index.html
+   Stages the updated index page for the second commit.
+
+5. git commit -m "Update project introduction"
+   Records the change to the project introduction.
+
+6. git switch -c feature
+   Creates the feature branch and switches to it.
+
+7. git add about.html
+   Stages the student details added on the feature branch.
+
+8. git commit -m "Add student details on feature branch"
+   Records the feature branch change.
+
+9. git switch main
+   Returns to the main branch before integrating the feature.
+
+10. git merge --no-edit feature
+    Merges the feature branch into main. Git used a fast-forward merge.
+
+11. git add .gitignore README.md login_test_cases.md git_commands.txt
+    Stages the ignore rules and assignment documentation.
+
+12. git commit -m "Add ignore rules and assignment documentation"
+    Records the .gitignore, test cases, and submission documentation.
+
+13. git add undo_demo.txt
+    Stages a temporary demonstration file for the undo operation.
+
+14. git commit -m "Add temporary undo demonstration"
+    Creates the commit that will be undone.
+
+15. git revert --no-edit HEAD
+    Undoes the latest commit by creating a new commit that reverses its changes.
+
+16. git status --short --branch
+    Displays the current branch and whether the working tree has pending changes.
+
+17. git log --oneline --graph --decorate --all
+    Displays a compact commit history with branch and merge information.
+
+18. git branch --all
+    Lists local and remote branches.
+
+19. git check-ignore debug.log temp/ignored-demo.txt
+    Confirms that a log file and a file in temp/ match the ignore rules.
+
+20. git remote add origin https://github.com/Zingzy/demo_assignment.git
+    Connects the local repository to the public GitHub repository.
+
+21. git push -u origin main
+    Pushes main to GitHub and sets origin/main as its upstream.
+
+22. git push -u origin feature
+    Pushes the feature branch to GitHub so the branch activity is visible there.
