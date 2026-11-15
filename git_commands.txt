@@ -80,5 +80,5 @@ GitHub publishing commands (run after authenticating and creating the public rep
 GitHub CLI command to create the public repository
 ==================================================
 
-    gh repo create demo_assignment --public --source=. --remote=origin
-    Creates a new public GitHub repository from this local project and adds the origin remote.
+    gh repo create demo_assignment --public
+    Creates a new empty public GitHub repository. Add it as origin with the git remote add command above, then push both branches.
