@@ -12,6 +12,6 @@ This submission demonstrates a local Git workflow with an initial commit, a foll
 
 ## Repository
 
-Target public GitHub repository: https://github.com/Zingzy/demo_assignment
+Public GitHub repository: https://github.com/Zingzy/demo_assignment
 
-The previous public repository was deleted. This local submission contains no personal name or Bits ID; recreate the public repository after GitHub authentication is restored.
+This submission does not include the student name or Bits ID.
