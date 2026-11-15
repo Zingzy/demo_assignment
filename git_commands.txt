@@ -58,11 +58,20 @@ Git commands used
 19. git check-ignore debug.log temp/ignored-demo.txt
     Confirms that a log file and a file in temp/ match the ignore rules.
 
-20. git remote add origin https://github.com/Zingzy/demo_assignment.git
-    Connects the local repository to the public GitHub repository.
+GitHub publishing commands (run after creating the public repository)
+=======================================================================
 
-21. git push -u origin main
-    Pushes main to GitHub and sets origin/main as its upstream.
+1. git remote add origin https://github.com/Zingzy/demo_assignment.git
+   Connects the local repository to the public GitHub repository.
 
-22. git push -u origin feature
-    Pushes the feature branch to GitHub so the branch activity is visible there.
+2. git push -u origin main
+   Pushes main to GitHub and sets origin/main as its upstream.
+
+3. git push -u origin feature
+   Pushes the feature branch so its activity is visible on GitHub.
+
+22. git add README.md git_commands.txt
+    Stages the note about the unavailable GitHub publication and the corrected command guide.
+
+23. git commit -m "Document GitHub publishing status"
+    Records the publication status and keeps the local submission history complete.

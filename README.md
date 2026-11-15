@@ -12,4 +12,5 @@ This submission demonstrates a local Git workflow with an initial commit, a foll
 
 ## Repository
 
-Public GitHub repository: https://github.com/Zingzy/demo_assignment
+Intended public GitHub repository: https://github.com/Zingzy/demo_assignment  
+Publication is pending because GitHub access was unavailable in the environment used to prepare this submission.
